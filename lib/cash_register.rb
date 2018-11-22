@@ -30,7 +30,5 @@ class CashRegister
   end
 end
 
-add_item("tomato", "4", 1)
-
 
 Pry.start
