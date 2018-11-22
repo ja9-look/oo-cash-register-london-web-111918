@@ -26,7 +26,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    @items
+    @total.shift
   end
 end
 
