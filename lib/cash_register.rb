@@ -26,9 +26,8 @@ class CashRegister
   end
   
   def void_last_transaction
-    @items.shift
+    @items
   end
 end
 
 
-Pry.start
